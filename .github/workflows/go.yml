@@ -49,21 +49,15 @@ jobs:
 
       - name: Download dependencies
         if: steps.cache-go-module.outputs.cache-hit != 'true'
-        env:
-          GOPRIVATE: "github.com/searis"
         run: go mod download
 
       - name: Verify go modules up to date
-        env:
-          GOPRIVATE: "github.com/searis"
         run: |
           set -ex
           go mod tidy
           [ -z "$(git diff -- go.{mod,sum})" ] # Check there are no changes!
 
       - name: Test
-        env:
-          GOPRIVATE: "github.com/searis"
         run: go test -race ./... -json > /tmp/go-test.json
 
       - name: Annotate code from test output
