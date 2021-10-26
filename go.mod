@@ -1,4 +1,4 @@
-module github.com/searis/jsoncat
+module github.com/clarify/jsoncat
 
 go 1.15
 

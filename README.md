@@ -1,14 +1,14 @@
 # JSON Cat
 
-![Go](https://github.com/searis/jsoncat/workflows/Go/badge.svg)
-[![PkgGoDev](https://pkg.go.dev/badge/github.com/searis/jsoncat)][pkgref]
+![Go](https://github.com/clarify/jsoncat/workflows/Go/badge.svg)
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/clarify/jsoncat)][pkgref]
 
 The `jsoncat` package provide functions for concatenating JSON entities of the
 same JSON type (object, array or string) while preserving the order of elements.
 
 See the [package reference][pkgref] for more details and examples.
 
-[pkgref]: https://pkg.go.dev/github.com/searis/jsoncat
+[pkgref]: https://pkg.go.dev/github.com/clarify/jsoncat
 
 ## Example
 
@@ -36,7 +36,7 @@ import (
     "encoding/json"
     "time"
 
-    "github.com/searis/jsoncat"
+    "github.com/clarify/jsoncat"
 )
 
 // Model is assumed a base client-side base model for resources from an API.

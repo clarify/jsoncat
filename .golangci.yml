@@ -8,4 +8,4 @@ linters:
 
 linters-settings:
   gci:
-    local-prefixes: github.com/searis/jsoncat
+    local-prefixes: github.com/clarify/jsoncat

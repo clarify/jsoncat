@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/searis/jsoncat"
+	"github.com/clarify/jsoncat"
 )
 
 // Model assumed a base model for an API client.
