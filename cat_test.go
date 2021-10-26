@@ -5,7 +5,7 @@ import (
 
 	"github.com/searis/subtest"
 
-	"github.com/searis/jsoncat"
+	"github.com/clarify/jsoncat"
 )
 
 func TestArrays(t *testing.T) {
