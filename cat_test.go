@@ -3,7 +3,7 @@ package jsoncat_test
 import (
 	"testing"
 
-	"github.com/searis/subtest"
+	"github.com/clarify/subtest"
 
 	"github.com/clarify/jsoncat"
 )
